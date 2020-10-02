@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(248, 245, 245);
+}
+
+.form {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    /* border: 3px solid #33D4CE; */
+    /* padding: 15px; */
+    background-color: white;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* Registrarse */
+
+.form .form-inputs {
+    width: 50%;
+    padding: 25px;
+}
+
+.form .form-inputs form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px 0px 10px;
+}
+
+.form-inputs h1 {
+    text-align: center;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 30pt;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.form-inputs input {
+    margin-bottom: 70px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.form-inputs .line {
+    border-bottom: 3px solid #989898;
+    padding-left: 5px;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.form-inputs .btn-input {
+    height: 70px;
+    background-color: rgb(253, 218, 60);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    ;
+    margin: 20px 0px;
+    outline: none;
+    border: none;
+}
+
+.form-inputs .btn-input:hover {
+    background-color: rgb(255, 225, 92);
+    cursor: pointer;
+}
+
+
+/* Inicio de sesion */
+
+.form .form-socials {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#20B5AF, #359260);
+}
+
+.form-socials h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+.form-socials div {
+    margin-bottom: 70px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.form-socials div button {
+    height: 70px;
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.btn-facebook {
+    background-color: #3B5999;
+    font-weight: 700;
+}
+
+.btn-facebook:hover {
+    background-color: #4769b3;
+    cursor: pointer;
+}
+
+.btn-twetter {
+    background-color: #55ACEF;
+    font-weight: 700;
+}
+
+.btn-twetter:hover {
+    background-color: #60b7fa;
+    cursor: pointer;
+}
+
+.btn-correo {
+    background-color: #33D4CE;
+    font-weight: 700;
+}
+
+.btn-correo:hover {
+    background-color: #3bddd8;
+    cursor: pointer;
+}
+
+.malo {
+    color: #fd4343;
+}
